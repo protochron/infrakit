@@ -1,7 +1,7 @@
 InfraKit
 ========
 
-[![Circle 
+[![Circle
 CI](https://circleci.com/gh/docker/infrakit.png?style=shield&circle-token=50d2063f283f98b7d94746416c979af3102275b5)](https://circleci.com/gh/docker/infrakit)
 [![codecov.io](https://codecov.io/github/docker/infrakit/coverage.svg?branch=master&token=z08ZKeIJfA)](https://codecov.io/github/docker/infrakit?branch=master)
 
@@ -17,7 +17,7 @@ To get started, try the [tutorial](docs/tutorial.md).
 ## Overview
 
 ### Plugins
-_InfraKit_ at the core consists of a set of collaborating, active processes.  These components are called _plugins_.  
+_InfraKit_ at the core consists of a set of collaborating, active processes.  These components are called _plugins_.
 
 _InfraKit_ supports composing different plugins to meet different needs.  These plugins are active controllers that
 can look at current infrastructure state and take action when the state diverges from user specification.
@@ -54,7 +54,7 @@ a user:
 
   + watch/ unwatch a group (start / stop managing a group)
   + inspect a group
-  + trigger an update the configuration of a group - like changing its size or underlying properties of instances. 
+  + trigger an update the configuration of a group - like changing its size or underlying properties of instances.
   + stop an update
   + destroy a group
 
@@ -128,7 +128,7 @@ export PATH=$GOPATH/bin:$PATH
 
 mkdir -p ~/go/src/github.com/docker
 cd !$
-git clone git@github.com:chungers/infrakit.git
+git clone git@github.com:docker/infrakit.git
 cd infrakit
 
 ```
